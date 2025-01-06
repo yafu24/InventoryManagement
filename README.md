@@ -14,7 +14,7 @@
 ---
 
 ## About the System
-This Point of Sale (POS) system is designed to address inventory and accounting challenges faced by small and medium merchandise/inventory businesses. It facilitates efficient management of income, expenses, profits, and losses.
+This Inventory and Point of Sale (POS) System is a software application designed to manage inventory, track sales, and facilitate transactions in retail or service-based businesses. It integrates inventory management with sales operations, ensuring seamless stock control, real-time reporting, and efficient customer transactions. It facilitates efficient management of customers, suppliers, invenotry, sales, purchases, expenses, profits and losses.
 
 ### Technologies Used:
 - **Backend**: Laravel (PHP Framework)
@@ -24,20 +24,72 @@ This Point of Sale (POS) system is designed to address inventory and accounting 
 ---
 
 ## System Features
+- **Customers Management**:
+  - Register and manage customer details (name, contact, address, etc.).
+  - Track customer purchase history and outstanding balances.
+  - Allow credit sales and monitor pending payments.
+  - Track reward points, offer discounts, and manage loyalty schemes.
+- **Supplier Management**:
+  - Register supplier details (contact information, payment terms, delivery schedules).
+  - Assess supplier performance based on delivery times, quality, and pricing.
+  - Record and track payments made to suppliers.
+  - Store and manage supplier contracts and terms of service.
 - **Item Management**:
   - Register and manage items, item categories, and variants list.
+  - Organize items into categories and subcategories for better tracking.
+  - Generate and assign barcodes for each item.
+  - Monitor stock levels in real-time and set reorder thresholds.
+  - Manage inventory using batch or serial numbers for traceability.
 - **Sales Management**:
-  - Register daily sales.
+  - Register daily sales transactions with timestamps..
   - Manage both credit and cash sales.
-- **Hardware Integration**:
-  - Complete integration with barcode scanners and printers.
+  - Generate invoices and receipts automatically after transactions.
+  - Apply discounts and run promotional campaigns.
+  - Process sales returns and refunds.
+  - Generate sales reports to analyze trends and performance.
+- **Purchase Management**:
+  - Create and manage purchase orders for inventory replenishment.
+  - Track purchase order status (Pending, Approved, Completed)
+  - Verify deliveries against purchase orders and record received quantities.
+  - Handle returns and generate credit notes for damaged or incorrect items.
+  - Record unit costs, shipping charges, and additional expenses related to purchases.
+  - Manage payments made to suppliers, including partial and full payments.
 - **Receivables Management**:
-  - Register receipts (receivables).
+  - Generate receipts for payments received and share them with customers.
+  - Create and send invoices to customers for goods or services rendered.
+  - Monitor unpaid invoices and overdue payments.
+  - Track credit balances and repayment schedules.
+  - Schedule recurring payments such as rent, salaries, or subscriptions.
+- **Payments Management**:
+  - Record and process payments made to suppliers.
+  - Handle partial payments, advances, and bulk payments.
+  - Generate payment vouchers for expenses and supplier payments.
+  - Match payments with invoices and bank transactions for accuracy.
 - **Expense Tracking**:
   - Register and monitor expenses.
+  - Categorize expenses (utilities, rent, salaries, marketing, etc.) for better organization.
+  - Record all business expenses with supporting documents like receipts and invoices.
+  - Automate recurring expenses like subscriptions, salaries, and lease payments.
+  - Analyze spending trends and identify areas for cost reduction.
 - **Reporting**:
-  - Generate company reports.
+  - Generate company financial reports.
+  - Analyze daily, weekly, and monthly sales trends.
   - Create detailed financial reports.
+  - Track order history, pending orders, and costs.
+  - View customer balances, credit history, and loyalty program performance.
+  - Monitor supplier transactions and payment status.
+- **Security and Access Control**:
+  - User Roles and Permissions: Define roles (e.g., Admin, Manager, Cashier) with access control.
+  - Audit Logs: Track user actions to maintain transparency and accountability.
+- **Hardware Integration**:
+  - Complete integration with barcode scanners and printers.
+
+---
+
+## Target Users
+- **Retail stores, supermarkets, and wholesalers**:
+- **Pharmacies and medical suppliers**:
+- **Service businesses (salons, gyms)**:
 
 ---
 
