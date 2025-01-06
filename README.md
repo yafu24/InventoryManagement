@@ -9,26 +9,49 @@
  <img src="https://user-images.githubusercontent.com/32343117/216509670-e855b0ae-3c6a-44d5-b104-da937b77a7e8.PNG" width=500 height=350 />   
    
 </p>
+## Developer: Yafet Berhane
 
-<h2>Developer: SIMON MANNA</h2> <br/>
-<h2>About the system</h2><br/>
-This point of sale (POS) system is built to solve inventory and accounting problems. <br/>
-This system enables users (small and medium merchandise/inventory businesses) to manage their income, expense and profit and losses.<br/>
-It is built in Laravel, JavaScript, Angular, MySQL and Bootstrap.<br/>
+---
 
-<h2>The system has the following features:-</h2>
--	Register and Manage Items, Item categories and variants list<br/>
--	Register daily sales<br/>
--	Manage credit and cash sales<br/>
--	Has complete integration with barcode scanner and printer<br/>
--	Register Receipts (Receivables)<br/>
--	Register expenses<br/>
--	Generate company reports<br/>
--   Create Reports
+## About the System
+This Point of Sale (POS) system is designed to address inventory and accounting challenges faced by small and medium merchandise/inventory businesses. It facilitates efficient management of income, expenses, profits, and losses.
 
-#How to use it
-- Install wamp, xammp or mamp or any comfortable php and mysql running software
-- Install composer
-- go to the containing folder, and run "composer install"
- 
+### Technologies Used:
+- **Backend**: Laravel (PHP Framework)
+- **Frontend**: JavaScript, Angular, Bootstrap
+- **Database**: MySQL
 
+---
+
+## System Features
+- **Item Management**:
+  - Register and manage items, item categories, and variants list.
+- **Sales Management**:
+  - Register daily sales.
+  - Manage both credit and cash sales.
+- **Hardware Integration**:
+  - Complete integration with barcode scanners and printers.
+- **Receivables Management**:
+  - Register receipts (receivables).
+- **Expense Tracking**:
+  - Register and monitor expenses.
+- **Reporting**:
+  - Generate company reports.
+  - Create detailed financial reports.
+
+---
+
+## Installation Guide
+
+### Prerequisites:
+1. Install **WAMP**, **XAMPP**, **MAMP**, or any preferred PHP and MySQL environment.
+2. Install **Composer** (PHP Dependency Manager).
+
+### Steps:
+1. Navigate to the project directory.
+2. Run the following command to install dependencies:
+   ```bash
+   composer install
+   ```
+
+---
