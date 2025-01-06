@@ -9,7 +9,7 @@
  <img src="https://user-images.githubusercontent.com/32343117/216509670-e855b0ae-3c6a-44d5-b104-da937b77a7e8.PNG" width=500 height=350 />   
    
 </p>
-## Developer: Yafet Berhane
+<h2> Developer: Yafet Berhane </h2>
 
 ---
 
